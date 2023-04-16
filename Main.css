@@ -1,0 +1,129 @@
+body, h1, h2, h3, p, ul, li {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    text-decoration: none;
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); */
+
+body {
+    display: inline;
+    background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(https://slowaging.org/wp-content/uploads/2017/06/Fresh-food-for-healthy-aging.jpg)no-repeat;    
+    font-family: 'Roboto', sans-serif;
+}
+
+.top {
+    display: flex;
+    padding: 10px 0 0px 0; 
+    margin: 20px 50px 30px 50px;
+    border-bottom: white 2px solid;
+    color: white;
+    font-size: 20px;
+    flex-grow: 1;
+    
+}
+
+.title {
+    display: flex;
+    justify-content: start;
+    margin-left:30px;
+    flex-grow: 5;
+    font-size: 24px;
+}
+
+.links {
+    display: flex;
+    justify-content: end;
+    word-spacing: 20px;
+    margin-right: 30px;
+    flex-grow: 1;
+    font-size: 18px;    
+}
+
+.mainTitle {
+    display: flex;
+    justify-content: center;
+    color:white;
+    font-size: 36px;
+    margin-top:200px;
+}
+
+h1 {
+    text-align: center;
+    border-bottom: 2px white solid;
+    padding: 0 35px 15px 35px;
+    margin: 0 auto 0 auto;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.description {
+    text-align: center;
+    color:white;
+    font-size: 28px;
+    margin: 15px 0 300px 0;
+}
+
+h3 {
+    font-size: 36px;
+    margin-bottom: 24px;
+}
+
+
+img {
+    width: 500px;
+    height: 401px;
+}
+
+.content {  
+    display: flex-reverse;
+    flex-direction: column;
+    color:white;
+    background-color: black;
+    font-size: 24px;
+    padding: 100px 25px 100px 25px;
+}
+.picture1
+{
+    float:left;
+    margin-right: 25px;
+}
+
+
+.contentLeft {
+    display: flex-reverse;
+    flex-direction: column;
+    color:white;
+    font-size: 24px;
+    background-color: #111111;
+    padding: 100px 25px 100px 25px; 
+}
+.picture2
+{
+    float:right;
+}
+
+.contentBottom {
+    display: flex-reverse;
+    flex-direction: column;
+    color:white;
+    font-size: 24px;
+    background-color: #212121;
+    padding: 100px 25px 100px 25px;
+}
+.picture3
+{
+    float:left;
+    padding-right: 25px;
+}
+
+/* .flex-container1 {
+    display: flex;
+    align-items: stretch;
+    color:white;
+    font-size: 24px;
+    background-color: #212121;
+    padding: 100px 25px 100px 25px;
+  } */
